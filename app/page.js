@@ -10,7 +10,7 @@ import { Recommand } from "@/elements/Recommand";
 import Connect from "@/elements/Connect";
 import CopyToClipboard from "@/elements/Connect";
 import { FloatingNav } from "../components/ui/floating-navbar"
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconMessage, IconUser,IconLamp } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
     {
       name: "Skills",
       link: "#Skills",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconLamp className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Contact",
