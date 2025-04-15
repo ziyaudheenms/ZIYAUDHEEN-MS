@@ -14,6 +14,7 @@ import { IconHome, IconMessage, IconUser,IconLamp,IconCloudComputing } from "@ta
 import Image from "next/image";
 import Link from "next/link";
 import { Ex } from "@/elements/ex";
+import { Skills } from "@/elements/Skills";
 export default function Home() {
   const navItems = [
     {
@@ -127,10 +128,11 @@ export default function Home() {
             Skills I have to Solve problems in industrial standerds
           </p>
           <div className="flex justify-center flex-wrap md:justify-start gap-5 md:gap-11">
-            <div>
+           
+              <Skills />
               <Card />
-            </div>
-            <div className="rounded-[22px]  p-4 sm:p-10 bg-black dark:bg-zinc-900 border-2 border-violet-700">
+            
+            {/* <div className="rounded-[22px]  p-4 sm:p-10 bg-black dark:bg-zinc-900 border-2 border-violet-700">
               <h1 className="font-bold text-center text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white pt-10">
                 PROGRAMMING SKILLS THAT I DEAL WITH
               </h1>
@@ -221,10 +223,10 @@ export default function Home() {
                   </span>
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="w-full  bg-black border-2 border-red-600 rounded-2xl mt-5 p-5">
-            <h1 className="font-bold  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
+          <div className="md:w-[73%] mx-auto  bg-black border-2 border-red-600 rounded-2xl mt-5 p-5">
+            <h1 className="font-bold text-center  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
             <div className="flex justify-center gap-4 items-center flex-wrap">
