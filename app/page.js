@@ -263,7 +263,7 @@ export default function Home() {
             Experience that stands out 
           </h1>
           <p className="mx-auto  mt-4 max-w-lg text-center text-xl font-light text-neutral-300 pb-13">
-            Skills I have to Solve problems in industrial standerds
+            Experiences that improves my standerd
           </p>
           <Ex />
           
