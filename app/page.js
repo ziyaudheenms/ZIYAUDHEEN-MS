@@ -225,7 +225,7 @@ export default function Home() {
               </div>
             </div> */}
           </div>
-          <div className="md:w-[73%] mx-auto  bg-black border-2 border-red-600 rounded-2xl mt-5 p-5">
+          <div className="md:w-[73%] w-full mx-auto  bg-black border-2 border-red-600 rounded-2xl mt-5 p-5">
             <h1 className="font-bold text-center  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
