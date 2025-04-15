@@ -10,9 +10,10 @@ import { Recommand } from "@/elements/Recommand";
 import Connect from "@/elements/Connect";
 import CopyToClipboard from "@/elements/Connect";
 import { FloatingNav } from "../components/ui/floating-navbar"
-import { IconHome, IconMessage, IconUser,IconLamp } from "@tabler/icons-react";
+import { IconHome, IconMessage, IconUser,IconLamp,IconCloudComputing } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Ex } from "@/elements/ex";
 export default function Home() {
   const navItems = [
     {
@@ -29,6 +30,11 @@ export default function Home() {
       name: "Skills",
       link: "#Skills",
       icon: <IconLamp className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Experience",
+      link: "#Experience",
+      icon: <IconCloudComputing className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Contact",
@@ -244,6 +250,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div id="Experience" className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10">
+        <div
+          className={cn(
+            "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
+            "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
+          )}
+        />
+
+        <div className="relative z-10 mx-auto w-full max-w-7xl p-4 md:pt-20">
+          <h1 className="text-transparent text-center font-bold text-5xl pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
+            Experience that stands out 
+          </h1>
+          <p className="mx-auto  mt-4 max-w-lg text-center text-xl font-light text-neutral-300 pb-13">
+            Skills I have to Solve problems in industrial standerds
+          </p>
+          <Ex />
+          
+        </div>
+      </div>
       <div id="steyp" className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10">
         <div
           className={cn(
@@ -307,3 +332,4 @@ export default function Home() {
     </>
   );
 }
+

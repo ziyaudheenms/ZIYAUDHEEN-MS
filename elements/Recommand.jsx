@@ -24,7 +24,7 @@ export function Recommand() {
             duration: 0.3,
             delay: 0.8,
           }}
-          className="text-white font-light text-center text-xl py-4">
+          className="text-white font-light text-center md:text-xl py-4 text-[18px]">
           A digital university platform for students to learn and engage in technology<br></br>fostering future engineers and scientists.
         </motion.p>
         <motion.div
