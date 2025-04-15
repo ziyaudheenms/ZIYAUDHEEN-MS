@@ -9,7 +9,7 @@ import {
 
 export function Aim({title,disc}) {
   return (
-    <div className="flex py-2  items-center justify-center antialiased">
+    <div className="flex py-2 w-full  items-center justify-center antialiased">
       <GlowingStarsBackgroundCard>
         <GlowingStarsTitle>{title}</GlowingStarsTitle>
         <div className="flex justify-between items-end">
