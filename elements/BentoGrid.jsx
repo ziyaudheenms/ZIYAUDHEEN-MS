@@ -35,7 +35,7 @@ const Skeleton = ({ src }) => (
       layout="responsive"
       width={100}
       height={30}
-      className="rounded-md"
+      className="rounded-md bg-contain bg-center"
     />
   </div>
 );

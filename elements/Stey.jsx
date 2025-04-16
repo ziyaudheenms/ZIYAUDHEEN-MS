@@ -2,6 +2,7 @@
 import React from "react";
 import { BackgroundGradient } from "../components/ui/background-gradient";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Stey() {
   return (
@@ -58,7 +59,15 @@ export function Stey() {
               {" "}
               thanking steyp for providing a well-structured 365 days of course
               for developing a strong base in the field of software development
-            </span>
+            </span><br></br>
+            <Link href="https://steyp.com/feed/ZIYAUDHEEN%20MS" target="_blank">
+            <button className="p-[3px] relative my-4 w-full">
+  <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+  <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+    Visit my steyp Profile
+  </div>
+</button>
+            </Link>
           </div>
         </div>
       </BackgroundGradient>
