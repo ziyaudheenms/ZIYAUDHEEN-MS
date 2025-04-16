@@ -306,7 +306,7 @@ export default function Home() {
       <Stey />
 
         </div>
-      <div id="contact" className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10">
+      <div id="contact" className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10 pt-10">
         <div
           className={cn(
             "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
