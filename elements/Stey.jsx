@@ -45,7 +45,7 @@ export function Stey() {
                 pw-manager - password manager
               </li>
               <li className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-violet-800">
-                BloggerAI - blogging platform
+                BloggerAI - chat bot platform
               </li>
               <li className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-violet-800">
                 Hourent - house renting platform
