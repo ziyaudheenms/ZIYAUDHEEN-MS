@@ -35,7 +35,7 @@ export const GlowingStarsDescription = ({
   children
 }) => {
   return (
-    (<p className={cn("text-[16px] text-white max-w-[16rem]", className)}>
+    (<p className={cn("text-[16px] font-light text-white max-w-[16rem]", className)}>
       {children}
     </p>)
   );

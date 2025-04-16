@@ -15,6 +15,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Ex } from "@/elements/ex";
 import { Skills } from "@/elements/Skills";
+import { Steyp } from "@/elements/Steyp";
+import { Stey } from "@/elements/Stey";
 export default function Home() {
   const navItems = [
     {
@@ -225,17 +227,23 @@ export default function Home() {
               </div>
             </div> */}
           </div>
-          <div className="md:w-[73%] w-full mx-auto  bg-black border-2 border-red-600 rounded-2xl mt-5 p-5">
-            <h1 className="font-bold text-center  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
+          <div className=" w-full mx-auto   rounded-2xl mt-5 p-5">
+            <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
-            <div className="flex justify-center gap-4 items-center flex-wrap">
+            <div className="flex justify-center gap-3 items-center flex-wrap">
               <Aim
                 disc={
                   "Looking forward to contribute in computer vision with OpenCv"
                 }
                 title={"Computer Vision"}
               />
+              {/* <Aim
+                disc={
+                  "Looking forward to contribute in AL/ML with Langchain and python"
+                }
+                title={"AL/ML"}
+              /> */}
               <Aim
                 disc={
                   "Looking forward to contribute in AL/ML with Langchain and python"
@@ -282,7 +290,22 @@ export default function Home() {
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 ">
           <Recommand />
         </div>
+        
       </div>
+      
+      <div id="steyp" className="relative flex h-full w-full justify-center bg-black/[0.96] antialiased ">
+      
+        <div
+          className={cn(
+            "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
+            "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
+          )}
+        />
+        
+
+      <Stey />
+
+        </div>
       <div id="contact" className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10">
         <div
           className={cn(

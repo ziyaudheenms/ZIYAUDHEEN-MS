@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Card() {
   return (
-    <div className="md:w-[73%] w-full mx-auto ">
+    <div className="xl:w-[73%] lg:w-[91%] w-full mx-auto ">
       <BackgroundGradient className="rounded-[22px]  p-4 sm:p-10 bg-black dark:bg-zinc-900">
       <h3 className="font-bold text-2xl text-center font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white">
                 Credits That I Have From Steyp

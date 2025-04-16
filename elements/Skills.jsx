@@ -31,7 +31,7 @@ const Skeleton = ({ src }) => (
 );
 const Skeleton2 = () => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black">
-    <div className="rounded-[22px]  p-4 sm:p-10 bg-black dark:bg-zinc-900 border-2 border-violet-700">
+    <div className="rounded-[22px]  p-4 sm:p-10 bg-black dark:bg-zinc-900 border-2 border-violet-700 w-full">
       <div className="py-3 flex flex-wrap gap-4 justify-center">
         <button className="p-[3px] relative">
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
@@ -177,21 +177,21 @@ const Skeleton5 = () => (
 const items = [
   {
     title: "PROGRAMMING SKILLS THAT I DEAL WITH",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    description: "dealing with wide variety of languages",
     header: <Skeleton2 src="/result.png" />,
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "UTILITIES THAT BOOSTS",
-    description: "Dive into the transformative power of technology.",
+    description: "Utility softwares that are meant to increase productivity",
     header: <Skeleton5 src="/result.png" />,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "UI COMPONENT LIBRARY",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description: "UI libraries that turn's concept into reality",
     header: <Skeleton4 src="/result.png" />,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
@@ -199,7 +199,7 @@ const items = [
   {
     title: " FRAMEWORKS THAT POWERS",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "Frameworks to tackle the problem in faster way",
     header: <Skeleton3 src="/result.png" />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
