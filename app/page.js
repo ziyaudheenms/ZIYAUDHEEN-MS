@@ -17,6 +17,7 @@ import { Ex } from "@/elements/ex";
 import { Skills } from "@/elements/Skills";
 import { Steyp } from "@/elements/Steyp";
 import { Stey } from "@/elements/Stey";
+import { Project } from "@/elements/Project";
 export default function Home() {
   const navItems = [
     {
@@ -104,11 +105,16 @@ export default function Home() {
             Full stack projects that are meant to define my ability in problem
             solving .
           </p>
-          <Projects />
-          <div className="flex justify-center my-5">
-            <div className="w-full max-w-sm rounded-lg bg-black/[0.92] border-2 border-violet-800 p-4 shadow-md flex justify-center h-44 items-center">
-              <h3 className="font-bold text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white">
-                20 + UI/BACKEND PROJECTS
+          <div className="flex flex-wrap items-center justify-center gap-4">
+          <Project title={'Bloweb'} disc={'A blogging platform through which we can perform all CURD operations and also it has wide variety of cool features.User can create there profile, they can like, comment and we can visit the profiles of all users to.'} link={'https://github.com/ziyaudheenms/blowebFrontent'} img={'/bloweb.png'} fram={'django'} fro={'React Js'} sty={'bootstrap CSS'} bac={'Python'}/>
+          <Project title={'PW-Manager'} disc={'In this growing world we all are getting more and more engaged in internet, so to keep our various social media , network accounts we use various passwords, but there may be some cases where we might forget some passwords due to having many .'} link={'https://github.com/ziyaudheenms/password-manager'} img={'/pw.png'} fram={'django'} fro={'React Js'} sty={'bootstrap CSS'} bac={'Python'}/>
+          <Project title={'Hourent'} disc={'Hourent is a fully dedicated platform for renting our properties, hourent is a virtual transparent agent between owner  and his customer. Through the platform we can rent our house, cabins etc.'} link={'https://github.com/ziyaudheenms/Hourent'} img={'/hourent.png'} fram={'django'} fro={'Next Js'} sty={'Tailwind CSS'} bac={'Python'}/>
+          <Project title={'BloggerAI'} disc={'In this platform we just need to provide the topic on which we want to generate content and the AI working behind will generate it.Llm used in this project is llama-3.3-70b-versatile.'} link={'https://github.com/ziyaudheenms/blowebFrontent'} img={'/blogger.png'} fram={'django'} fro={'Next Js'} sty={'Tailwind CSS'} bac={'Python'}/>
+          </div>
+          <div className="flex justify-center my-5 w-full">
+            <div className="w-full xl:w-[80%] lg:w-[98%] md:w-[65%] rounded-lg bg-black/[0.92] border-2 border-violet-800 p-4 shadow-md flex justify-center h-44 items-center">
+              <h3 className="font-bold text-[18px] lg:text-2xl mg:text-2xl xl:text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white text-center">
+                20+ UI/BACKEND PROJECTS
               </h3>
             </div>
           </div>

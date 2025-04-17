@@ -39,6 +39,16 @@ const Skeleton = ({ src }) => (
     />
   </div>
 );
+const Skeleton2 = ({ src }) => (
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-white ">
+    <img
+      src={src}
+      alt="Description of the image"
+      
+      className="rounded-md  w-full h-full object-full object-fit"
+    />
+  </div>
+);
 const items = [
   {
     title: "5 years of experience",
@@ -63,7 +73,7 @@ const items = [
     title: "Empowered by STEYP",
     description:
       "STEYP has a major role in elevating my knowledge graph with technology in past 1.5 years.",
-    header: <Skeleton src={"/pic.png"} />,
+    header: <Skeleton2 src={"/pic.png"} />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
