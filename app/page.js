@@ -120,7 +120,7 @@ export default function Home() {
             Full stack projects that are meant to define my ability in problem
             solving .
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-wrap items-center justify-center lg:gap-8 gap-4">
             <Project
               title={"Bloweb"}
               disc={
@@ -129,8 +129,8 @@ export default function Home() {
               link={"https://github.com/ziyaudheenms/blowebFrontent"}
               img={"/bloweb.png"}
               fram={"django"}
-              fro={"React Js"}
-              sty={"bootstrap CSS"}
+              fro={"React "}
+              sty={"bootstrap "}
               bac={"Python"}
             />
             <Project
@@ -141,8 +141,8 @@ export default function Home() {
               link={"https://github.com/ziyaudheenms/password-manager"}
               img={"/pw.png"}
               fram={"django"}
-              fro={"React Js"}
-              sty={"bootstrap CSS"}
+              fro={"React "}
+              sty={"bootstrap "}
               bac={"Python"}
             />
             <Project
@@ -153,8 +153,8 @@ export default function Home() {
               link={"https://github.com/ziyaudheenms/Hourent"}
               img={"/hourent.png"}
               fram={"django"}
-              fro={"Next Js"}
-              sty={"Tailwind CSS"}
+              fro={"Next "}
+              sty={"Tailwind "}
               bac={"Python"}
             />
             <Project
@@ -165,8 +165,8 @@ export default function Home() {
               link={"https://github.com/ziyaudheenms/blowebFrontent"}
               img={"/blogger.png"}
               fram={"django"}
-              fro={"Next Js"}
-              sty={"Tailwind CSS"}
+              fro={"Next "}
+              sty={"Tailwind "}
               bac={"Python"}
             />
           </div>
@@ -199,7 +199,6 @@ export default function Home() {
           </p>
           <div className="flex justify-center flex-wrap md:justify-start gap-5 md:gap-11">
             <Skills />
-            <Card />
           </div>
           <div className=" w-full mx-auto   rounded-2xl mt-5 p-5">
             <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
@@ -282,8 +281,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      
-
 
       <div
         id="steyp"
@@ -295,13 +292,56 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-       
-        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
-          <Time time={1} head={'Provided a Clear Foundation in Web Page Desiging.'} on={'HTML'} tw={'CSS'} thre={'BOOTSTRAP'} four={'Made wide variety of projects'} conclution={'Became Capable to build basic webPage designs, robustly learned the basics of web page designing.'} type={'FRONTEND'}/>
-          <Time time={2} head={'Made a strong base in Web application development'} on={'JAVASCRIPT'} tw={'REACT JS'} thre={'JQUERY'} four={'Frontent Projects was made with Ease'} conclution={'Became Capable to build basic web applications, robustly learned the basics of web application dev'} type={'FRONTEND'}/>
-          <Time time={3} head={'Learned how backend works in real world problems'} on={'PYTHON'} tw={'DJANGO'} thre={'DATABASE'} four={'completed Complex backend projects '} conclution={'Became Capable to build backend systems, robustly learned the basics of backend development.'} type={'BACKEND'}/>
-          <Time time={4} head={'Combined all the skills to build complete products'} on={'REST API(DJANGO)'} tw={'MOBILE DEVELOPMENT'} thre={'REACT NATIVE'} four={'Mobile applications were made.'} conclution={'Became Capable to build full stack solutions, robustly learned the basics of full stack engineering.'} type={'FULLSTACK'}/>
 
+        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
+          <Time
+            time={1}
+            head={"Provided a Clear Foundation in Web Page Desiging."}
+            on={"HTML"}
+            tw={"CSS"}
+            thre={"BOOTSTRAP"}
+            four={"Made wide variety of projects"}
+            conclution={
+              "Became Capable to build basic webPage designs, robustly learned the basics of web page designing."
+            }
+            type={"FRONTEND"}
+          />
+          <Time
+            time={2}
+            head={"Made a strong base in Web application development"}
+            on={"JAVASCRIPT"}
+            tw={"REACT JS"}
+            thre={"JQUERY"}
+            four={"Frontent Projects was made with Ease"}
+            conclution={
+              "Became Capable to build basic web applications, robustly learned the basics of web application dev"
+            }
+            type={"FRONTEND"}
+          />
+          <Time
+            time={3}
+            head={"Learned how backend works in real world problems"}
+            on={"PYTHON"}
+            tw={"DJANGO"}
+            thre={"DATABASE"}
+            four={"completed Complex backend projects "}
+            conclution={
+              "Became Capable to build backend systems, robustly learned the basics of backend development."
+            }
+            type={"BACKEND"}
+          />
+          <Time
+            time={4}
+            head={"Combined all the skills to build complete products"}
+            on={"REST API(DJANGO)"}
+            tw={"DEVOPS"}
+            thre={"REACT NATIVE"}
+            four={"Mobile applications were made."}
+            conclution={
+              "Became Capable to build full stack solutions, robustly learned the basics of full stack engineering."
+            }
+            type={"FULLSTACK"}
+          />
         </div>
       </div>
       <div

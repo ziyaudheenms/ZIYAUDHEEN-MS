@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function Skills() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="max-w-8xl  md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
