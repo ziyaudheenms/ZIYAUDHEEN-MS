@@ -1,5 +1,6 @@
 import './animate.css';
 import React from "react";
+import Reveal from '../components/Reveal';
 import { cn } from "@/lib/utils";
 import { Spotlight } from "../components/ui/spotlight";
 import { Nav } from "@/elements/Nav";
@@ -94,7 +95,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div
+          <div
         id="About"
         className="relative  h-full w-full overflow-x-hidden  bg-black/[0.94] antialiased py-8 px-4"
       >
@@ -102,9 +103,11 @@ export default function Home() {
           More About Me
         </h1>
         {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div> */}
-
+        <Reveal> 
         <BentoGridDemo />
+        </Reveal> 
       </div>
+ 
       <div
         id="Project"
         className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10"
@@ -115,8 +118,9 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-
+  
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 md:pt-20">
+        <Reveal>
           <h1 className="text-transparent text-center font-bold text-5xl pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
             Projects That Speaks
           </h1>
@@ -181,7 +185,9 @@ export default function Home() {
               </h3>
             </div>
           </div>
+          </Reveal>
         </div>
+       
       </div>
       <div
         id="Skills"
@@ -193,8 +199,9 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-
+      
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 md:pt-20">
+        <Reveal>
           <h1 className="text-transparent text-center font-bold text-5xl pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
             Skills That Defines Me
           </h1>
@@ -204,6 +211,7 @@ export default function Home() {
           <div className="flex justify-center flex-wrap md:justify-start gap-5 md:gap-11">
             <Skills />
           </div>
+          </Reveal>
           <div className=" w-full mx-auto   rounded-2xl mt-5 p-5">
             <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
@@ -229,8 +237,13 @@ export default function Home() {
                 title={"StartUp Plans"}
               />
             </div>
+            
           </div>
+          
         </div>
+      
+
+        
       </div>
       <div
         id="Experience"
@@ -244,6 +257,7 @@ export default function Home() {
         />
 
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 md:pt-20">
+        <Reveal>
           <h1 className="text-transparent text-center font-bold text-5xl pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
             Experience that stands out
           </h1>
@@ -251,7 +265,9 @@ export default function Home() {
             Experiences that improves my standerd
           </p>
           <Ex />
+          </Reveal>
         </div>
+      
       </div>
       <div
         id="steyp"
@@ -263,13 +279,16 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-
+ 
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 ">
+        <Reveal>
           <h1 className="text-4xl font-semibold text-white dark:text-white text-center">
           If You Are Interested In Technology I Would Suggest Steyp...
           </h1>
           <Promo />
+          </Reveal>
         </div>
+      
       </div>
       <div
         id="Experience"
@@ -281,14 +300,17 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-
+      
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 ">
+        <Reveal>
           <h1 className="text-transparent text-center font-bold text-5xl pb-2 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
             Steyp through my Journey
           </h1>
+          </Reveal>
         </div>
-      </div>
 
+      </div>
+      
       <div
         id="steyp"
         className="relative flex h-full w-full justify-center bg-black/[0.96] antialiased "
@@ -301,6 +323,7 @@ export default function Home() {
         />
 
         <div className="flex flex-wrap  justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
+          
           <Time
             time={1}
             head={"Provided a Clear Foundation in Web Page Desiging."}
@@ -364,8 +387,10 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
+    
 
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 md:pt-20">
+              <Reveal>
           <h1 className="text-transparent text-center font-bold text-2xl md:text-3xl pb-2 bg-gradient-to-b from-red-600 to-violet-800 bg-clip-text">
             Let’s connect together and build the NextGen <br></br> technologies{" "}
             to uplift the world.
@@ -373,7 +398,10 @@ export default function Home() {
           <div className="flex my-4 justify-center items-center ">
             <CopyToClipboard />
           </div>
+          </Reveal>
+
         </div>
+  
       </div>
       <div className="w-full bg-black p-5 flex md:justify-between items-center md:flex-row flex-col justify-center gap-4  ">
         <div className="flex flex-col justify-center items-center md:items-start">
