@@ -3,7 +3,7 @@ import '../app/animate.css'
 
 export function Time({time,head,on,tw,thre,four,conclution,type}) {
   return (
-    <CardSpotlight className="h-auto w-full xl:w-[33%] lg:w-[46%] md:w-[69%] ">
+    <CardSpotlight className="h-auto w-full xl:w-[30%] lg:w-[46%] md:w-[69%] ">
         <div className="w-full flex justify-center">
       <div className="text-white bg-neutral-400 text-3xl flex justify-center items-center px-4 bg-gradient-to-r from-red-600 to-violet-800 py-2 rounded-[50%] absolute top-[-25px]  ">
         {time}
