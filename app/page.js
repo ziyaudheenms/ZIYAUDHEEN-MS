@@ -208,7 +208,7 @@ export default function Home() {
             <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
-            <div className="flex justify-center gap-5  lg:gap-1 lg:justify-between items-center flex-wrap">
+            <div className="flex justify-center gap-5 items-center flex-wrap">
               <Aim
                 disc={
                   "Looking forward to contribute in computer vision with OpenCv"
