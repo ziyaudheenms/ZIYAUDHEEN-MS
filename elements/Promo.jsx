@@ -17,7 +17,7 @@ export function Promo() {
           </>
         }>
         <img
-          src={`./Recommand.png`}
+          src={`/recommand.png`}
           alt="hero"
           height={720}
           width={1400}
