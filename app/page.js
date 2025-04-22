@@ -216,6 +216,7 @@ export default function Home() {
             <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
+            <Reveal>
             <div className="flex justify-center gap-5 items-center flex-wrap">
               <Aim
                 disc={
@@ -237,7 +238,7 @@ export default function Home() {
                 title={"StartUp Plans"}
               />
             </div>
-            
+            </Reveal>
           </div>
           
         </div>
@@ -321,7 +322,7 @@ export default function Home() {
             "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
           )}
         />
-
+        <Reveal>
         <div className="flex flex-wrap  justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
           
           <Time
@@ -373,7 +374,7 @@ export default function Home() {
             type={"FULLSTACK"}
           />
         </div>
-      
+        </Reveal>
 
         
       </div>

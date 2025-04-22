@@ -5,8 +5,8 @@ const Reveal = ({
   children,
   className = '',
   transitionClass = 'transition-all duration-1000 ease-out',
-  hiddenClass = 'opacity-0 translate-y-8 scale-95 blur-sm',
-  visibleClass = 'opacity-100 translate-y-0 scale-100 blur-0',
+  hiddenClass = 'opacity-0 translate-y-8 scale-95',
+  visibleClass = 'opacity-100 translate-y-0 scale-100',
 }) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +16,7 @@ const Reveal = ({
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); // 🔥 Unobserve after revealing
+          observer.unobserve(entry.target); // Show only once
         }
       },
       { threshold: 0.1 }
@@ -40,4 +40,5 @@ const Reveal = ({
 };
 
 export default Reveal;
+
 
