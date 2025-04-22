@@ -13,7 +13,7 @@ import Image from "next/image";
 
 export function BentoGridDemo() {
   return (
-    <BentoGrid className="max-w-6xl mx-auto">
+    <BentoGrid className="max-w-[980px] mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

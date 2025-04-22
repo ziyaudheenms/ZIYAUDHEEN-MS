@@ -1,3 +1,4 @@
+import './animate.css';
 import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "../components/ui/spotlight";
@@ -7,6 +8,7 @@ import { Projects } from "@/elements/Projects";
 import { Card } from "@/elements/Card";
 import { Aim } from "@/elements/Aim";
 import { Recommand } from "@/elements/Recommand";
+import { AnimatedList } from "@/components/magicui/animated-list";
 import Connect from "@/elements/Connect";
 import CopyToClipboard from "@/elements/Connect";
 import { FloatingNav } from "../components/ui/floating-navbar";
@@ -25,6 +27,8 @@ import { Steyp } from "@/elements/Steyp";
 import { Stey } from "@/elements/Stey";
 import { Project } from "@/elements/Project";
 import { Time } from "@/elements/Time";
+import { Promo } from '@/elements/Promo';
+
 export default function Home() {
   const navItems = [
     {
@@ -204,7 +208,7 @@ export default function Home() {
             <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
               LOOKING FORWARD TO ..
             </h1>
-            <div className="flex justify-center gap-3 items-center flex-wrap">
+            <div className="flex justify-center gap-5  lg:gap-1 lg:justify-between items-center flex-wrap">
               <Aim
                 disc={
                   "Looking forward to contribute in computer vision with OpenCv"
@@ -230,7 +234,7 @@ export default function Home() {
       </div>
       <div
         id="Experience"
-        className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10"
+        className="relative flex h-full w-full bg-black/[0.96] antialiased pb-20"
       >
         <div
           className={cn(
@@ -251,7 +255,7 @@ export default function Home() {
       </div>
       <div
         id="steyp"
-        className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10"
+        className="relative flex h-full w-full bg-black/[0.96] antialiased "
       >
         <div
           className={cn(
@@ -261,7 +265,10 @@ export default function Home() {
         />
 
         <div className="relative z-10 mx-auto w-full max-w-7xl p-4 ">
-          <Recommand />
+          <h1 className="text-4xl font-semibold text-white dark:text-white text-center">
+          If You Are Interested In Technology I Would Suggest Steyp...
+          </h1>
+          <Promo />
         </div>
       </div>
       <div
@@ -293,7 +300,7 @@ export default function Home() {
           )}
         />
 
-        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
+        <div className="flex flex-wrap  justify-center items-center gap-10 md:gap-8 lg:gap-10 w-full max-w-7xl p-4 pt-20">
           <Time
             time={1}
             head={"Provided a Clear Foundation in Web Page Desiging."}
@@ -343,6 +350,9 @@ export default function Home() {
             type={"FULLSTACK"}
           />
         </div>
+      
+
+        
       </div>
       <div
         id="contact"
