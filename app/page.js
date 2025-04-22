@@ -99,9 +99,11 @@ export default function Home() {
         id="About"
         className="relative  h-full w-full overflow-x-hidden  bg-black/[0.94] antialiased py-8 px-4"
       >
+        <Reveal>
         <h1 className="text-transparent text-center font-bold text-5xl pb-10 bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text">
           More About Me
         </h1>
+        </Reveal>
         {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div> */}
         <Reveal> 
         <BentoGridDemo />
