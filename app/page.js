@@ -29,6 +29,7 @@ import { Stey } from "@/elements/Stey";
 import { Project } from "@/elements/Project";
 import { Time } from "@/elements/Time";
 import { Promo } from '@/elements/Promo';
+import { Looking } from '@/elements/Looking';
 
 export default function Home() {
   const navItems = [
@@ -193,7 +194,7 @@ export default function Home() {
       </div>
       <div
         id="Skills"
-        className="relative flex h-full w-full bg-black/[0.96] antialiased pb-10"
+        className="relative flex h-full w-full bg-black/[0.96] antialiased pb-2"
       >
         <div
           className={cn(
@@ -219,26 +220,8 @@ export default function Home() {
               LOOKING FORWARD TO ..
             </h1>
             <Reveal>
-            <div className="flex justify-center gap-5 items-center flex-wrap">
-              <Aim
-                disc={
-                  "Looking forward to contribute in computer vision with OpenCv"
-                }
-                title={"Computer Vision"}
-              />
-
-              <Aim
-                disc={
-                  "Looking forward to contribute in AL/ML with Langchain and python"
-                }
-                title={"AL/ML"}
-              />
-              <Aim
-                disc={
-                  "With the support of YIP(Steyp's initiative) working for a startUp"
-                }
-                title={"StartUp Plans"}
-              />
+            <div className="">
+             <Looking />
             </div>
             </Reveal>
           </div>
