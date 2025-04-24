@@ -59,7 +59,7 @@ const GridItem = ({ area, icon, title, description }) => {
               <h3 className="-tracking-4 pt-0.5 font-sans text-xl/[1.375rem] font-semibold text-balance bg-gradient-to-b from-red-600 to-violet-800 bg-clip-text text-transparent md:text-2xl/[1.875rem] dark:text-white">
                 {title}
               </h3>
-              <h2 className="font-sans text-[16px] md:text-[18px] bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text text-transparent md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
+              <h2 className="font-sans text-[16px] md:text-[18px] bg-gradient-to-b text-[#888888] bg-clip-text md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
                 {description}
               </h2>
             </div>
