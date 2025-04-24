@@ -21,6 +21,7 @@ export function Looking({title,disc}) {
 //     description:
 //        "Looking forward to contribute in AL/ML with Langchain and python",
 //     link: "https://netflix.com",
+//8848815569
 //   },
 //   {
 //     title: "StartUp Plans",

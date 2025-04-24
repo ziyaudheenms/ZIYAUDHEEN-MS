@@ -180,7 +180,6 @@ export default function Home() {
                 sty={"Tailwind "}
                 bac={"Python"}
               />
-           
             </div>
             <div className="flex justify-center my-5 w-full">
               <div className="w-full xl:w-[80%] lg:w-[98%] md:w-[76%] rounded-lg bg-black/[0.92] border-2 border-violet-800 p-4 shadow-md flex justify-center h-44 items-center">
@@ -217,15 +216,30 @@ export default function Home() {
           </Reveal>
           <div className=" w-full mx-auto   rounded-2xl mt-5 p-5">
             <Reveal>
-            <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
-              LOOKING FORWARD TO ..
-            </h1>
+              <h1 className="font-bold text-center my-4  text-2xl font-sans bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-violet-800 dark:text-white ">
+                LOOKING FORWARD TO ..
+              </h1>
             </Reveal>
             <Reveal>
               <div className="flex flex-wrap items-center justify-center gap-4 ">
-                <Looking title={'Computer Vision'} disc={'Looking forward to contribute in computer vision with OpenCv'}/>
-                <Looking title={'AL/ML'} disc={'Looking forward to contribute in AL/ML with Langchain and python'}/>
-                <Looking title={'StartUp Plans'} disc={"With the support of YIP(Steyp's initiative) working for a startUp"}/>
+                <Looking
+                  title={"Computer Vision"}
+                  disc={
+                    "Looking forward to contribute in computer vision with OpenCv"
+                  }
+                />
+                <Looking
+                  title={"AL/ML"}
+                  disc={
+                    "Looking forward to contribute in AL/ML with Langchain and python"
+                  }
+                />
+                <Looking
+                  title={"StartUp Plans"}
+                  disc={
+                    "With the support of YIP(Steyp's initiative) working for a startUp"
+                  }
+                />
               </div>
             </Reveal>
           </div>
