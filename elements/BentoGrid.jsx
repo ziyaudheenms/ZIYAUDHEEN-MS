@@ -60,7 +60,7 @@ const items = [
     title: "Mentality to solve..",
     description:
       "completed 4 full stack projects and currently working on a SaaS",
-    header: <Skeleton src={"/solve.png"} />,
+    header: <Skeleton src={"/hourent.webp"} />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -79,19 +79,19 @@ const items = [
   {
     title: "Wide Variety of Knowledge..",
     description: "Industry ready tech stack for solving .",
-    header: <Skeleton src={"/tech.png"} />,
+    header: <Skeleton src={"/tech.gif"} />,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Dedication and discipline",
     description: "Qualities what my works assures to it's clients.",
-    header: <Skeleton src={"/dec.jpg"} />,
+    header: <Skeleton src={"/dec.jpeg"} />,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Looking forward to contribute..",
     description: "in the fild of AI/ML to uplift the humanity.",
-    header: <Skeleton src={"/ai.png"} />,
+    header: <Skeleton src={"/blogger.webp"} />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];
