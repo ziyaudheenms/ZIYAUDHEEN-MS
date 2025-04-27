@@ -138,7 +138,7 @@ export default function Home() {
                   "A blogging platform through which we can perform all CURD operations and also it has wide variety of cool features.User can create there profile, they can like, comment and we can visit the profiles of all users to."
                 }
                 link={"https://github.com/ziyaudheenms/blowebFrontent"}
-                img={"/bloweb.webp"}
+                img={"/bloweb.png"}
                 fram={"django"}
                 fro={"React "}
                 sty={"bootstrap "}
@@ -150,7 +150,7 @@ export default function Home() {
                   "As our reliance on the internet grows, we manage numerous social media and network accounts requiring various passwords. This can sometimes lead to forgetting passwords due to the sheer number."
                 }
                 link={"https://github.com/ziyaudheenms/password-manager"}
-                img={"/pw.webp"}
+                img={"/pw.png"}
                 fram={"django"}
                 fro={"React "}
                 sty={"bootstrap "}
@@ -162,7 +162,7 @@ export default function Home() {
                   "Hourent is a dedicated platform for property rentals, acting as a transparent virtual agent between owners and customers. It enables users to rent out houses, cabins."
                 }
                 link={"https://github.com/ziyaudheenms/Hourent"}
-                img={"/hourent.webp"}
+                img={"/hourent.png"}
                 fram={"django"}
                 fro={"Next "}
                 sty={"Tailwind "}
@@ -174,7 +174,7 @@ export default function Home() {
                   "In this platform we just need to provide the topic on which we want to generate content and the AI working behind will generate it.Llm used in this project is llama-3.3-70b-versatile."
                 }
                 link={"https://github.com/ziyaudheenms/blowebFrontent"}
-                img={"/blogger.webp"}
+                img={"/blogger.png"}
                 fram={"django"}
                 fro={"Next "}
                 sty={"Tailwind "}

@@ -39,6 +39,17 @@ const Skeleton = ({ src }) => (
     />
   </div>
 );
+const Skeleton3 = ({ src }) => (
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 justify-center ">
+    <Image
+      src={src}
+      alt="Description of the image"
+      width={40}
+      height={30}
+      className="w-[30%] items-center justify-center rounded-md bg-contain bg-center"
+    />
+  </div>
+);
 const Skeleton2 = ({ src }) => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-white ">
     <img
@@ -91,7 +102,7 @@ const items = [
   {
     title: "Looking forward to contribute..",
     description: "in the fild of AI/ML to uplift the humanity.",
-    header: <Skeleton src={"/blogger.webp"} />,
+    header: <Skeleton3 src={"/coding.png"} />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];
