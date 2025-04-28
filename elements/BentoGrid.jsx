@@ -51,12 +51,12 @@ const Skeleton3 = ({ src }) => (
   </div>
 );
 const Skeleton2 = ({ src }) => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-white ">
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-white justify-center">
     <img
       src={src}
       alt="Description of the image"
       
-      className="rounded-md  w-full h-full object-full object-fit"
+      className=""
     />
   </div>
 );
@@ -64,14 +64,14 @@ const items = [
   {
     title: "5 years of experience",
     description: "a continuous tech learner for past 5 years",
-    header: <Skeleton src={"/ziya.jpg"} />,
+    header: <Skeleton src={"/ziya2.jpg"} />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Mentality to solve..",
     description:
       "completed 4 full stack projects and currently working on a SaaS",
-    header: <Skeleton src={"/hourent.webp"} />,
+    header: <Skeleton src={"/solve.avif"} />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -84,25 +84,25 @@ const items = [
     title: "Empowered by STEYP",
     description:
       "STEYP has a major role in elevating my knowledge graph with technology in past 1.5 years.",
-    header: <Skeleton2 src={"/pic.png"} />,
+    header: <Skeleton2 src={"/steyp.png"} />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Wide Variety of Knowledge..",
     description: "Industry ready tech stack for solving .",
-    header: <Skeleton src={"/tech.gif"} />,
+    header: <Skeleton src={"/solve2.jpg"} />,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Dedication and discipline",
     description: "Qualities what my works assures to it's clients.",
-    header: <Skeleton src={"/dec.jpeg"} />,
+    header: <Skeleton src={"/dec2.jpg"} />,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Looking forward to contribute..",
     description: "in the fild of AI/ML to uplift the humanity.",
-    header: <Skeleton3 src={"/coding.png"} />,
+    header: <Skeleton src={"/img.webp"} />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];
